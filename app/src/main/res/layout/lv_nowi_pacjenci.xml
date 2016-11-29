@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="13dp">
+        <TextView
+            android:id="@+id/fontimie"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:layout_weight="0.1"
+            android:layout_column="1"
+
+            android:textSize="20dp"
+            android:textAlignment="gravity"
+            android:text="imie"
+            />
+
+        <TextView
+            android:id="@+id/imie"
+            android:textColor="@android:color/black"
+            android:layout_weight="0.7"
+            android:layout_column="2"
+            android:layout_height="25dp"
+            android:textSize="20dp"
+            android:textAlignment="gravity"
+            android:text="imie"
+            android:layout_gravity="left"
+            android:layout_span="0"
+            android:layout_width="match_parent" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/fontemail"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:layout_weight="0.1"
+            android:layout_column="1"
+            android:layout_height="25dp"
+            android:textSize="13dp"
+            android:textAlignment="gravity"
+            android:text="email"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:textColor="@android:color/black"
+            android:text="email"
+            android:textSize="13dp"
+            android:layout_weight="0.7"
+            android:layout_width="match_parent"
+            android:layout_span="0"
+            android:layout_gravity="left"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/fonttelefon"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:layout_weight="0.1"
+            android:layout_column="1"
+            android:layout_height="25dp"
+            android:textSize="13dp"
+            android:textAlignment="gravity"
+            android:text="telefon"
+            />
+        <TextView
+            android:id="@+id/telefon1"
+            android:textColor="@android:color/black"
+            android:text="telefon"
+            android:textSize="13dp"
+            android:layout_weight="0.7"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_span="0" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/fontadres"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:layout_weight="0.1"
+            android:layout_column="1"
+            android:layout_height="25dp"
+            android:textSize="13dp"
+            android:textAlignment="gravity"
+            android:text="adres"
+            />
+        <TextView
+            android:id="@+id/adres"
+            android:textColor="@android:color/black"
+            android:text="adres"
+            android:textSize="13dp"
+            android:layout_weight="0.7"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_span="0" />
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bartek.praca_inzynierska">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        //android:theme="@style/AppTheme">
+        <activity android:name=".LogowanieActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllUsersActivity"
+            android:label="@string/title_activity_all_users"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UstalWizyteActivity" />
+        <activity android:name=".UstalWizyteGodzinaNotkaActivity" />
+        <activity android:name=".KorespondencjaWybranieWizytyActivity" />
+        <activity android:name=".WiadomosciKorespondencjiActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UserPanelActivity" />
+        <activity android:name=".Rejestracja1Activity" />
+        <activity android:name=".Rejestracja2Activity" />
+        <activity android:name=".DaneOsoboweActivity" />
+        <activity android:name=".EdytujDaneImieNazwisko" />
+        <activity android:name=".EdytujDaneAdres" />
+        <activity android:name=".EdytujDaneTelefon" />
+        <activity android:name=".EdytujDaneHaslo" />
+        <activity android:name=".EdytujDaneEmail" />
+        <activity android:name=".TwojeWizytyAcitvity" />
+        <activity android:name=".SzczegolyNadchodzacaActivity" />
+        <activity android:name=".SzczegolyOdbytaActivity" />
+        <activity android:name=".PrzesunWizyteActivity" />
+        <activity android:name=".AdminPanelActivity" />
+        <activity android:name=".AdminWizytyActivity" />
+        <activity android:name=".AdminSzczegolyDzienActivity" />
+        <activity android:name=".AdminWybranieKorespondencji" />
+        <activity android:name=".AdminNowiPacjenciActivity" />
+        <activity android:name=".AdminDodajDzienActivity" />
+        <activity android:name=".PrzypomnienieHaslaActivity"></activity>
+    </application>
+
+</manifest>

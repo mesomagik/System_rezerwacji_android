@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bartek.praca_inzynierska.UserPanelActivity">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WYLOGUJ"
+        android:id="@+id/bWyloguj"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bWyloguj">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:layout_alignParentTop="false"
+            android:layout_above="@+id/bWyloguj"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="DODAJ WIZYTĘ"
+                android:id="@+id/bDodajWizyte"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_gravity="right|center"
+                android:backgroundTint="#8FD9FC" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="WIADOMOŚCI"
+                android:id="@+id/bWiadomosci"
+                android:layout_below="@+id/bDodajWizyte"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Edycja danych"
+                android:id="@+id/bEdycjaDanych"
+                android:layout_below="@+id/bWiadomosci"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_gravity="center" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Twoje wizyty"
+                android:id="@+id/bTwojeWizyty"
+                android:layout_below="@+id/bEdycjaDanych"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:backgroundTint="#8FD9FC"/>
+
+
+        </GridLayout>
+
+    </GridLayout>
+</RelativeLayout>
