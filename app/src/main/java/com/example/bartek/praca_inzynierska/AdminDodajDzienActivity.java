@@ -113,7 +113,9 @@ public class AdminDodajDzienActivity extends AppCompatActivity {
                         listaDni.add(dzien.getString("data"));
                     }
 
+
                     JSONArray godziny = response.getJSONArray("godziny");
+                    Log.e("dni",String.valueOf(godziny.length()));
                     for(int i=0;i<godziny.length();i++){
                         JSONObject godzina = godziny.getJSONObject(i);
                         ControlerGodzina controlerGodzina = new ControlerGodzina(

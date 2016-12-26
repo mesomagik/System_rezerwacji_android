@@ -60,7 +60,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:backgroundTint="#8FD9FC"/>
+        android:backgroundTint="#8FD9FC"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
     <Button
         android:layout_width="wrap_content"
@@ -70,7 +71,7 @@
         android:layout_alignTop="@+id/bWroc"
         android:layout_alignRight="@+id/etAdres"
         android:layout_alignEnd="@+id/etAdres"
-        android:backgroundTint="#8FD9FC"/>
+        style="@style/Widget.AppCompat.Button.Colored" />
 
     <TextView
         android:layout_width="wrap_content"

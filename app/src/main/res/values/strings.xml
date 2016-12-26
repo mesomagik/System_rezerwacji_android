@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Praca_inzynierska</string>
+    <string name="app_name">Praca inżynierska</string>
     <string name="title_activity_all_users">AllUsersActivity</string>
     <string name="title_activity_logowanie">Sign in</string>
 

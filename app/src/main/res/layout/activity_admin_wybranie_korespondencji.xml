@@ -32,7 +32,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:backgroundTint="#8FD9FC"
-        android:width="100dp"/>
+        android:width="100dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
     <ListView
         android:layout_width="wrap_content"

@@ -18,9 +18,8 @@
         android:id="@+id/bWyloguj"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-
+        android:layout_alignParentStart="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
 
     <GridLayout
@@ -28,8 +27,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/bWyloguj">
+        android:layout_alignParentStart="true">
 
         <GridLayout
             android:layout_width="wrap_content"
@@ -53,7 +51,7 @@
                 android:layout_row="1"
                 android:layout_column="1"
                 android:layout_gravity="right|center"
-                android:backgroundTint="#8FD9FC" />
+                style="@style/Widget.AppCompat.Button.Colored" />
 
             <Button
                 android:layout_width="140dp"
@@ -66,7 +64,7 @@
                 android:layout_row="1"
                 android:layout_column="2"
                 android:layout_gravity="center"
-                />
+                style="@style/Widget.AppCompat.Button.Colored" />
 
             <Button
                 android:layout_width="140dp"
@@ -78,10 +76,11 @@
                 android:layout_alignParentStart="true"
                 android:layout_row="3"
                 android:layout_column="1"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.Button.Colored" />
 
             <Button
-                style="?android:attr/buttonStyleSmall"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:text="Wiadomosci"
@@ -91,8 +90,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_row="3"
                 android:layout_column="2"
-                android:layout_gravity="center"
-                android:backgroundTint="#8FD9FC"/>
+                android:layout_gravity="center" />
 
 
         </GridLayout>

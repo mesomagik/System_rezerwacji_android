@@ -188,7 +188,7 @@
         android:layout_height="match_parent">
 
         <Button
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:text="Wróć"
             android:id="@+id/bWroc"
             android:layout_column="0"
@@ -197,12 +197,11 @@
             android:backgroundTint="#8FD9FC"/>
 
         <Button
-            style="?android:attr/buttonStyleSmall"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:text="Edytuj"
             android:id="@+id/bEdytuj"
             android:layout_column="4"
-            android:layout_marginTop="60dp"
-            android:backgroundTint="#8FD9FC"/>
+            android:layout_marginTop="60dp" />
     </TableRow>
 
     <TableRow

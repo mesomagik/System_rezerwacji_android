@@ -31,14 +31,14 @@
         android:layout_above="@+id/bWroc" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wróć"
         android:id="@+id/bWroc"
+        android:backgroundTint="#8FD9FC"
+        android:width="100dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:backgroundTint="#8FD9FC"
-        android:width="100dp"/>
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

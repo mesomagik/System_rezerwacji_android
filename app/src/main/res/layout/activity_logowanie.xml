@@ -47,20 +47,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zaloguj się"
-        android:id="@+id/bLogin"
-        android:layout_below="@+id/etHaslo"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="#8FD9FC"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Rejestracja"
         android:id="@+id/bRejestracja"
         android:layout_below="@+id/bLogin"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="#8FD9FC"/>
+        android:backgroundTint="#8FD9FC"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaloguj się"
+        android:id="@+id/bLogin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/etHaslo"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -69,7 +70,8 @@
         android:id="@+id/bHaslo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
 
 
 </RelativeLayout>

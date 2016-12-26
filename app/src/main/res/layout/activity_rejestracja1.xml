@@ -20,7 +20,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wróć"
@@ -38,7 +38,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:backgroundTint="#8FD9FC"/>
+        style="@style/Widget.AppCompat.Button.Colored" />
 
     <EditText
         android:layout_width="wrap_content"
